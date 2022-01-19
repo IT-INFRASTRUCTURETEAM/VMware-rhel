@@ -1,0 +1,33 @@
+---
+# Variables listed here are applicable to all host groups
+
+##### vCenter #####
+vcenter_hostname: "vvmvcsa.vvmvsphere.local"
+vcenter_username: "Administrator@vsphere.local"
+vcenter_password: "V!P3D0UTall#@!"
+datacenter_name: "DC-Vaporvm"
+cluster_name: ""
+virtual_machine_datastore: ""
+folder: ""
+template_name: "Win2019"
+vm_name: "Jazz-test-vm1"
+
+
+##### networks #####
+
+# vLan 105
+vLan_105_ID: 1105
+IP_105: "10.10.30.16"
+netmask_105: "255.255.255.0"
+gateway_105: "10.10.30.2"
+DNS1: "10.10.30.115"
+DNS2: "8.8.8.8"
+
+# vLan 104
+#vLan_104_ID: 1104
+#IP_104: 10.10.104.137
+#netmask_104: 255.255.255.0
+
+##### hardware #####
+RAM: 4096  # 4 GB
+CPU: 4     # 4 Core
