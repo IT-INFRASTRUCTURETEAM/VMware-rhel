@@ -14,16 +14,11 @@
     datastore: "{{ virtual_machine_datastore }}"
     networks:
       - name: VM Network
-        vlan: "{{ vLan_105_ID }}"
-        ip: "{{ IP_105 }}"
-        netmask: "{{ netmask_105 }}"
-        gateway: "{{ gateway_105 }}"
+        vlan: "{{ vLan_ID }}"
+        ip: "{{ IP }}"
+        netmask: "{{ netmask }}"
+        gateway: "{{ gateway }}"
         type: static
-      #- name: VM Network
-       # vlan: "{{ vLan_104_ID }}"
-       # ip: "{{ IP_104 }}"
-        #netmask: "{{ netmask_104 }}"
-        #type: static
     customization:
       existing_vm: True
       hostname: "{{ vm_name }}"
