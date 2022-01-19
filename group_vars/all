@@ -9,7 +9,7 @@ datacenter_name: "Central-DC"
 cluster_name: "HP_Linux2"
 virtual_machine_datastore: "HUW_D_OL_SSD6.7_131"
 folder: "Templates"
-template_name: "rhel_7.9"
+template_name: "rhel-7.9"
 vm_name: "rhel_7.9"
 
 ##### networks #####
