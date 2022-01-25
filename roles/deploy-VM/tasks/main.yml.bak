@@ -18,8 +18,8 @@
       controller_type: 'SCSI'
       controller_number: 0
       unit_number: 0
-    - size_gb: 155
-      controller_type: 'SCSI'
+    - size_gb: 50
+      controller_type: ''
       controller_number: 0
       unit_number: 1
     networks:
